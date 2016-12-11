@@ -1,0 +1,20 @@
+DROP VIEW werkkat;
+
+DROP TABLE spielt;
+DROP TABLE Rolle;
+DROP TABLE zugeordnet;
+DROP TABLE Werk;
+DROP TABLE Kategorie;
+DROP TABLE Ticket;
+DROP TABLE Auffuehrung;
+DROP TABLE Platz;
+DROP TABLE Saal;
+ALTER TABLE Mitarbeiter DROP CONSTRAINT fk_arbeitet;
+DROP TABLE Haus;
+DROP TABLE Kuenstler;
+DROP TABLE Mitarbeiter;
+DROP TABLE Kunde;
+DROP TABLE Person;
+DROP SEQUENCE seq_kunde;
+DROP SEQUENCE seq_person;
+DROP SEQUENCE seq_ticket;
