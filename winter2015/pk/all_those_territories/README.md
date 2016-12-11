@@ -5,4 +5,4 @@ A game created as a final assignment for the Programmkonstruktion (Introduction 
 
 * Technologies used: Java, Swing
 
-Authors: Thomas Jirout and Lukas Graf
+Authors: [Thomas Jirout](github.com/schiru) and [Lukas Graf](github.com/lgraf)
