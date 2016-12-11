@@ -1,0 +1,32 @@
+DROP VIEW IF EXISTS WerkKat;
+DROP FUNCTION IF EXISTS CreatePlatz(integer,integer,integer,integer);
+DROP TRIGGER IF EXISTS t_before_insert_auffuehrung ON Auffuehrung;
+DROP TRIGGER IF EXISTS t_before_insert_spielt ON spielt;
+DROP TRIGGER IF EXISTS t_close_sale ON Auffuehrung;
+DROP TRIGGER IF EXISTS t_open_sale ON Auffuehrung;
+
+DROP TABLE Ticket;
+DROP TABLE Platz;
+ALTER TABLE Mitarbeiter DROP CONSTRAINT fk_haus;
+ALTER TABLE Auffuehrung DROP CONSTRAINT fk_sid_hid;
+DROP TABLE Saal;
+DROP TABLE Haus;
+DROP TABLE spielt;
+DROP TABLE Auffuehrung;
+DROP TABLE Rolle;
+DROP TABLE zugeordnet;
+DROP TABLE Werk;
+DROP TABLE Kategorie;
+DROP TABLE Kuenstler;
+DROP TABLE Kunde;
+DROP TABLE Mitarbeiter;
+DROP TABLE Person;
+
+DROP SEQUENCE seq_platz;
+DROP SEQUENCE seq_haus;
+DROP SEQUENCE seq_ticket;
+DROP SEQUENCE seq_auffuehrung;
+DROP SEQUENCE seq_werk;
+DROP SEQUENCE seq_kategorie;
+DROP SEQUENCE seq_kunde;
+DROP SEQUENCE seq_person;
