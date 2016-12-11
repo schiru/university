@@ -5,3 +5,5 @@ The main task of this project was to
 - plpg function calls
 ([Szenario3.sql](https://github.com/schiru/university/blob/master/winter2016/dbsy/theater_database_java/szenario3.sql), 
 [Szenario3.java](https://github.com/schiru/university/blob/master/winter2016/dbsy/theater_database_java/dbs/ws16/Szenario3.java))
+
+Files in sql_files and dbs/DBConnector.java were provided by the lecture team.
